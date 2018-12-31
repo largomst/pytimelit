@@ -4,7 +4,7 @@ A KUAL extension for kindle to show literal time clock.
 
 The is a simple python implement of [tjapp's literary clock.](https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/). All images come from tjapp.
 
-The plugin only passes the test on Kindle Touch.
+The extension only passes the test on Kindle Touch.
 
 To Use the plugin:
 
