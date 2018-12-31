@@ -6,13 +6,14 @@ The is a simple python implement of [tjapp's literary clock.](https://www.instru
 
 The extension only passes the test on Kindle Touch.
 
-To Use the plugin:
+To use the extension:
 
 1. [install jail break](https://www.mobileread.com/forums/showthread.php?t=186645)
-2. [install kual to luanch the extension](https://www.mobileread.com/forums/showthread.php?t=203326)
+2. [install kual and kual helpr](https://www.mobileread.com/forums/showthread.php?t=203326)
 3. download the project
-4. copy the project to "extensions" under kindle's root directory
-5. Launch the extension in KUAL.
+4. copy the project to "extensions" folder under kindle's root directory
+5. Enable "Prevent ScreenSaver" in KUAL helper
+6. Launch the extension in KUAL
 
 That's all.
 
