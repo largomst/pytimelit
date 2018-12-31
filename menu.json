@@ -1,0 +1,17 @@
+{
+    "items": [{
+        "name": "Time Literary",
+        "priority": 2,
+        "items": [{
+                "name": "Launch Time Literary",
+                "priority": 1,
+                "action": "bin/launch_timelit.sh"
+            },
+            {
+                "name": "Close Time Literary",
+                "priority": 2,
+                "action": "bin/close_timelit.sh"
+            }
+        ]
+    }]
+}
