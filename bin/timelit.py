@@ -31,13 +31,16 @@ def main():
     show(image_path_prefix + 'quote_Leg_0_credits.png')
 
     while True:
-        now = datetime.datetime.now().strftime('%H%M')
+        now = datetime.datetime.now()
+        now_time = now.strftime('%H%M')
         image_name = "quote_{}_*_credits.png"
-        images = glob.glob(image_path_prefix + image_name.format(now))
+        images = glob.glob(image_path_prefix + image_name.format(now_time))
+
+        FAST_MODE = 120 if 500 < int(now_time) < 2300 else 900
 
         if len(images) > 0:
             show(random.choice(images))
-            time.sleep(60)
+            time.sleep(FAST_MODE)
         else:
             time.sleep(60)
 
