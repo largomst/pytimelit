@@ -13,8 +13,8 @@ To use the extension:
 3. [install python](https://www.mobileread.com/forums/showthread.php?t=195474)
 4. download the project
 5. copy the project to "extensions" folder under kindle's root directory
-6. Enable "Prevent ScreenSaver" in KUAL helper
-7. Launch the extension in KUAL
+6. enable "Prevent ScreenSaver" in KUAL helper
+7. launch the extension in KUAL
 
 That's all.
 
